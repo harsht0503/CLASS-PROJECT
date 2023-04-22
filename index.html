@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="js/script.js">
+    <title>Codewithharsh</title>
+</head>
+
+<body class="space-y-4">
+    <!-- NavBar -->
+    <nav class="relative container mx-auto ">
+        <div class="items-center justify-between md:flex md:flex-row">
+            <div class="items-center flex md:w-fit md:space-x-6 md:flex md:flex-col">
+                <!-- logo -->
+                <div class="w-[50%] md:w-[40%]">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="LOGO" width="[10%]">
+                    </a>
+                </div>
+                <!-- Hamburger icon -->
+                <div id="menue-btn" class="w-fit block mx-auto justify-end md:hidden">
+                    <button class="w-fit">
+                        <img src="images/icon-hamburger.svg" alt="LOGO" width="">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Menu Items -->
+            <div class="hidden md:flex space-x-6 text-xl">
+                <a href="#" class="hover:font-medium">Home</a>
+                <a href="#" class="hover:font-medium">Courses</a>
+                <a href="#" class="hover:font-medium">About Us</a>
+                <a href="#" class="hover:font-medium">Community</a>
+            </div>
+            <!-- button -->
+            <a href="#"
+                class="hidden md:block  px-6 py-2 bg-rose-500 text-white rounded-full  hover:shadow-lg active:bg-rose-600">Explore
+            </a>
+            <!-- hamburger menu -->
+            <div id="menu"
+                class="absolute hidden flex-col items-center self-end py-8 my-10 space-y-6 font-semibold sm:self-center sm:w-auto drop-shadow-md">
+                <a href="#" class="hover:text-lg hover:font-medium">Home</a>
+                <a href="#" class="hover:text-lg hover:font-medium">Courses</a>
+                <a href="#" class="hover:text-lg hover:font-medium">About Us</a>
+                <a href="#" class="hover:text-lg hover:font-medium">Community</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <!-- Flex Container -->
+        <div
+            class="container flex flex-col-reverse md:flex-row mx-auto px--6 items-center mt-10 space-y-0 md:space-y-0">
+            <!--Left Items -->
+            <div class="flex flex-col mb-32 mt-20 space-y-12 items-center md:w-1/2">
+                <h1 class="max-w-md text-4xl md:text-5xl text-center">We are Here for<br> Your Success</h1>
+                <input type="button" value="Enquire"
+                    class="bg-rose-500 text-white rounded-full px-6 py-2 mx-auto hover:shadow-lg active:bg-rose-600">
+            </div>
+
+            <!-- Image -->
+            <div class="md:w-1/2">
+                <img src="images/illustration-intro.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="Courses" class="bg-gray-100">
+        <!-- Flex Container -->
+        <div class="container items-center justify-between flex-col mx-auto py-16 md:mx-auto md:px-4">
+            <div>
+                <!-- heading -->
+                <p class="container mx-auto text-center text-4xl font-normal md:text-5xl">Our Courses</p>
+            </div>
+            <!-- Course Cards -->
+            <div class="mx-auto px-6 py-20 flex flex-col items-center space-y-8 space-x-2 md:flex md:flex-col">
+
+                <div class="flex flex-col space-y-6 md:flex md:flex-row md:mx-auto md:gap-12">
+                    <!-- card1 -->
+                    <div class="container bg-white block hover:shadow-xl md:w-[50%] ">
+                        <!-- image -->
+                        <div id="img-box" class="container m-auto px-4 py-4">
+                            <img src="images/Red hat cloud engineer.jpg" alt="">
+                        </div>
+
+
+                        <!-- Contents -->
+                        <div class="contaier flex flex-col items-center justify_between space-y-5 px-4 pb-6">
+
+                            <h4 class="text-xl font-medium text-[#002b46]">RED HAT CLOUD ENGINEER TRACK</h4>
+                            <hr class="mx-auto px-2 bg-slate-300 w-full">
+                            <!--Button -->
+                            <input type="button" value="Enquire"
+                                class="bg-rose-500 text-center items-center text-white rounded-full px-6 py-2 mx-auto hover:shadow-lg active:bg-rose-600">
+                        </div>
+                    </div>
+
+                    <!-- card2 -->
+                    <div class="container bg-white block hover:shadow-xl md:w-[50%] ">
+                        <!-- image -->
+                        <div id="img-box" class="container m-auto px-4 py-4">
+                            <img src="images/PTHON_PROFESSIONAL.png" alt="">
+                        </div>
+
+
+                        <!-- Contents -->
+                        <div class="contaier flex flex-col items-center justify_between space-y-5 px-4 pb-6">
+
+                            <h4 class="text-xl font-medium text-[#002b46]">PYTHON PROFESSIONAL</h4><br>
+                            <hr class="mx-auto px-2 bg-slate-300 w-full">
+                            <!--Button -->
+                            <input type="button" value="Enquire"
+                                class="bg-rose-500 text-center items-center text-white rounded-full px-6 py-2 mx-auto hover:shadow-lg active:bg-rose-600">
+                        </div>
+                    </div>
+
+                    <!-- card3 -->
+                    <div class="container bg-white block hover:shadow-xl md:w-[50%] ">
+                        <!-- image -->
+                        <div id="img-box" class="container m-auto px-4 py-4">
+                            <img src="images/SSA.png" alt="">
+                        </div>
+
+
+                        <!-- Contents -->
+                        <div class="contaier flex flex-col items-center justify_between space-y-5 px-4 pb-6">
+
+                            <h4 class="text-xl font-medium text-[#002b46]">SOFTWARE SOLUTION ARCHITECT- JAVA & .NET</h4>
+                            <hr class="mx-auto px-2 bg-slate-300 w-full">
+                            <!--Button -->
+                            <input type="button" value="Enquire"
+                                class="bg-rose-500 text-center items-center text-white rounded-full px-6 py-2 mx-auto hover:shadow-lg active:bg-rose-600">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col space-y-6 md:flex md:flex-row md:mx-auto md:gap-12">
+
+                    <!-- card4 -->
+                    <div class="container bg-white block hover:shadow-xl md:w-[50%] ">
+                        <!-- image -->
+                        <div id="img-box" class="container m-auto px-4 py-4">
+                            <img src="images/CLOUD.jpg" alt="">
+                        </div>
+
+
+                        <!-- Contents -->
+                        <div class="contaier flex flex-col items-center justify_between space-y-5 px-4 pb-6">
+
+                            <h4 class="text-xl font-medium text-[#002b46]">CLOUD & DATA MANAGEMENT</h4><br>
+                            <hr class="mx-auto px-2 bg-slate-300 w-full">
+                            <!--Button -->
+                            <input type="button" value="Enquire"
+                                class="bg-rose-500 text-center items-center text-white rounded-full px-6 py-2 mx-auto hover:shadow-lg active:bg-rose-600">
+                        </div>
+                    </div>
+
+                    <!-- card5 -->
+                    <div class="container bg-white block hover:shadow-xl md:w-[50%] ">
+                        <!-- image -->
+                        <div id="img-box" class="container m-auto px-4 py-4">
+                            <img src="images/TESTING.png" alt="">
+                        </div>
+
+
+                        <!-- Contents -->
+                        <div class="contaier flex flex-col items-center justify_between space-y-5 px-4 pb-6">
+
+                            <h4 class="text-xl font-medium text-[#002b46]">SOFTWARE TESTING PROFESSIONAL</h4>
+                            <hr class="mx-auto px-2 bg-slate-300 w-full">
+                            <!--Button -->
+                            <input type="button" value="Enquire"
+                                class="bg-rose-500 text-center items-center text-white rounded-full px-6 py-2 mx-auto hover:shadow-lg active:bg-rose-600">
+                        </div>
+                    </div>
+
+                    <!-- card6 -->
+                    <div class="container bg-white block hover:shadow-xl md:w-[50%] ">
+                        <!-- image -->
+                        <div id="img-box" class="container m-auto px-4 py-4">
+                            <img src="images/DATA_SCIENCE.png" alt="">
+                        </div>
+
+
+                        <!-- Contents -->
+                        <div class="contaier flex flex-col items-center justify_between space-y-5 px-4 pb-6">
+
+                            <h4 class="text-xl font-medium text-[#002b46]">DATA SCIENCE PROGRAM</h4>
+                            <hr class="mx-auto px-2 bg-slate-300 w-full">
+                            <!--Button -->
+                            <input type="button" value="Enquire"
+                                class="bg-rose-500 text-center items-center text-white rounded-full px-6 py-2 mx-auto hover:shadow-lg active:bg-rose-600">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--Buttons -->
+            <div class="mx-auto w-fit items-center justify-center md:w-fit md:mx-auto md:">
+                <input type="button" value="ALL COURSES!!"
+                    class="bg-rose-500 text-white rounded-full px-6 py-2 mx-auto hover:shadow-lg active:bg-rose-600">
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about_container" class="flex flex-col ">
+        <div class="text-center py-8">
+            <p class="text-3xl md:text-5xl">ABOUT US</p>
+        </div>
+
+        <!-- Paragraph -->
+        <div class="mx-auto text-center justify-center space-y-4">
+            <p class="mx-auto px-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto rem dignissimos
+                quisquam eius atque
+                dolorem facere voluptatibus sed distinctio quas animi minus modi, laudantium necessitatibus unde aliquam
+                consequatur quaerat quod?
+            </p>
+            <div class=" mx-auto block w-fit">
+                <details class="">
+                    <summary class=list-none p-2 ">Read More</summary>
+                    <p class="">
+                        Requires a computer running an operating system. The computer must have some
+                        memory and ideally some kind of long-term storage. An input device as well
+                        as some form of output device is recommended.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" flex flex-col bg-gray-900 items-center md:flex md:flex-col-reverse">
+                        <div class="items-center mx-auto flex flex-col">
+                            <!-- logo -->
+                            <div class="mx-auto  w-fit items-center md:hidden">
+                                <img src="images/logo-symbol.png" alt="" width="30%" class="px-6 mx-auto">
+                            </div>
+                            <!-- credits -->
+                            <div>
+                                <p class="text-center text-white md:pt-4">Copyright © 2023 All Rights Reserved</p>
+                            </div>
+                            <!-- Socials Logos -->
+                            <div class="space-x-6 flex flex-row py-4 ">
+                                <a href="#facebook"><img src="images/icon-facebook.svg" alt="facebook_Logo"></a>
+                                <a href="#instagram"><img src="images/icon-instagram.svg" alt="instagram_Logo"></a>
+                                <a href="#pinterest"><img src="images/icon-pinterest.svg" alt="pinterest_Logo"></a>
+                                <a href="#twitter"><img src="images/icon-twitter.svg" alt="twitter_Logo"></a>
+                            </div>
+                        </div>
+
+                        <div class="mx-auto flex flex-row sm: md:">
+                            <!-- link1 -->
+                            <div class="hidden md:text-center">
+                                <h1></h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia blanditiis animi
+                                    modi? Illum iste non aut at ex error magni iure officiis, saepe praesentium minima
+                                    modi architecto ad laudantium reprehenderit?
+                                </p>
+                            </div>
+
+                            <!-- link2 -->
+                            <div class="hidden md:text-center">
+                                <h1></h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia blanditiis animi
+                                    modi? Illum iste non aut at ex error magni iure officiis, saepe praesentium minima
+                                    modi architecto ad laudantium reprehenderit?
+                                </p>
+                            </div>
+
+                            <!-- link3 -->
+                            <div class="hidden md:text-center">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia blanditiis animi
+                                    modi? Illum iste non aut at ex error magni iure officiis, saepe praesentium minima
+                                    modi architecto ad laudantium reprehenderit?
+                                </p>
+                            </div>
+                        </div>
+                        </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

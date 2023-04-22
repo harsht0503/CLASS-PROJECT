@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#about_container{
+    background-image: url('./images/bg-simplify-section-desktop.svg');
+    background-repeat: no-repeat;
+}
